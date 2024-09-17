@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: msvc-eureka
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false # No registrar a si mismo en eureka
+    fetch-registry: false
+    server-url:
+      defaultZone: http://localhost:${server.port}/eureka/ # Ruta para acceder al servidor de Eureka
