@@ -13,6 +13,6 @@ La arquitectura consta de cinco microservicios, cada uno con su propia responsab
 - `Msvc-Client`: Gestiona operaciones relacionadas con clientes.
 
 ## Diagrama
-
+[![2024-09-17-16-22-09-Window.jpg](https://i.postimg.cc/FKWFzYwv/2024-09-17-16-22-09-Window.jpg)](https://postimg.cc/FfSXnH9C)
  
 
